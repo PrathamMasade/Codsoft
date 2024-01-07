@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 from datetime import datetime
 import pyjokes
@@ -49,8 +44,6 @@ def simple_chatbot(user_input):
             return "Thank you! I appreciate your kind words."
     else:
         return "I'm not sure how to answer that. Can you ask something else?"
-
-# Simple interactive loop
 name = input("Please enter your name:")
 c=input("What would you like to call me? ")
 print("Hello "+name+"! Please type \"exit\" to stop talking to",c+".")
@@ -71,8 +64,6 @@ while True:
                 print(c+": Sure here's another one...")
                 print(pyjokes.get_joke())
 
-
-# In[ ]:
 
 
 
